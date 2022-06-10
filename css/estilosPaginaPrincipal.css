@@ -1,0 +1,67 @@
+/*Inicio de los estilos para el patrón de diseño "Tiny tweaks"*/
+
+.c1 {
+  font-family: Helvetica;
+  color: black;
+  padding: 10px;
+  width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  
+@media (min-width: 500px) {
+  .c1 {
+    padding: 40px;
+  }
+}
+  
+@media (min-width: 800px) {
+  .c1 {
+    padding: 0px;
+  }
+}
+
+/*Fin de los estilos para el patrón de diseño "Tiny tweaks"*/
+.usuario{
+  float: right;
+}
+
+.encabezado{
+    text-align: center;
+    color: #00173F ;
+}
+
+.button{
+  width: 30%;
+  background: #024EB6;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.input{
+  width: 400px;
+  background: #A4BFE5 ;
+  color: black;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+body{
+  background-image: url("../imgs/fondouv.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+h1{
+  padding-top: 20px;
+  padding-bottom: -10;
+}
+
+label{
+  font-size: 18px;
+}
